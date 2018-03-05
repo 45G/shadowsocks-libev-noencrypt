@@ -30,8 +30,9 @@ acl_src = rule.c \
 crypto_src = crypto.c \
              aead.c \
              stream.c \
-			 ppbloom.c \
-             base64.c
+	     ppbloom.c \
+             base64.c \
+	     plain.c
 
 plugin_src = plugin.c
 
